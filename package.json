@@ -1,0 +1,28 @@
+{
+  "name": "vite-vanilla-js-template",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist",
+    "lint": "eslint . --ext .js",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "eslint": "^9.27.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-jsdoc": "^50.6.17",
+    "gh-pages": "^6.3.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "dependencies": {
+    "@types/node": "^22.15.21",
+    "sass": "^1.89.0"
+  }
+}
